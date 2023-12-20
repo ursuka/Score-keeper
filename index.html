@@ -4,17 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Score-keeper</title>
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
     <h1>Score-keeper</h1>
 
     <h1 id="Score"><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
 
-    <input type="number" id="finish_Score">
-
-
+    <h2>Playing to: </h2>
+    <select name="playTo" id="playTo">
+        <option value="5" selected="selected">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
     <button id="p1button">+1 Player one</button>
     <button id="p2button">+1 Player two</button>
+
+
 
     <button id="Reset">Reset</button>
     
